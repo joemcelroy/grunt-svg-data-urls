@@ -35,6 +35,7 @@ class SVGDataUrls
     cb false, {
       name 
       dataUrl
+      filePath
     }
 
   resultsHandler: (err,results) =>
