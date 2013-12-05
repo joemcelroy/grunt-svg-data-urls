@@ -1,0 +1,45 @@
+{
+  "name": "grunt-svg-data-urls",
+  "version": "0.1.0",
+  "description": "Convert SVGs to data urls with templates to style output file",
+  "keywords": [
+    "gruntplugin",
+    "svg",
+    "vector",
+    "graphic",
+    "image",
+    "data urls",
+    "css",
+    "less",
+    "sass"
+  ],
+  "author": {
+    "name": "Joseph McElroy",
+    "email": "phoey1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-coffee":"0.7.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": {
+    "type": "MIT"
+  }
+}
