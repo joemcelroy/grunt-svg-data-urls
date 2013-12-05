@@ -20,7 +20,6 @@ module.exports = (grunt) ->
 
         template: (results) ->
           fileContents = ""
-
           fileContents += "#{item.name}:'#{item.dataUrl}'" for item in results
 
           return fileContents

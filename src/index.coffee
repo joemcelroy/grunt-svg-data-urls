@@ -4,7 +4,6 @@ fs = require( 'fs' )
 class SVGDataUrls
 
   constructor:(@grunt, @options) ->
-
     if @validConfig is false
       @grunt.fatal("Requires svgs and a template")
 
@@ -30,7 +29,6 @@ class SVGDataUrls
       .replace(/'/gmi, "\\i") )
 
   handleFile: (filePath, cb) =>
-
     dataUrl = @encodeFile(filePath) 
     name = /([^/]+).svg$/.exec(filePath)[1]
 
